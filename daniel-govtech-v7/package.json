@@ -1,0 +1,19 @@
+{
+  "name": "daniel-govtech-fullstack-v7",
+  "version": "7.0.0",
+  "description": "GovTech fullstack premium demo for Daniel with 45+ solution modules and learning diagnostics",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js",
+    "test": "node tests/smoke.test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {}
+}
